@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Gorro",
+        "material":"Lana",
+        "subtotal": 0,
+        "precio": 500
+    },
+    {
+        "nombre": "Bufanda",
+        "material":"Lana",
+        "subtotal": 0,
+        "precio": 300
+    },
+    {
+        "nombre": "Chaleco",
+        "material":"Hilo",
+        "subtotal": 0,
+        "precio": 1000
+    },
+    {
+        "nombre": "Buzo",
+        "material":"Algodon",
+        "subtotal": 0,
+        "precio": 1500
+    },
+    {
+        "nombre": "Guantes",
+        "material":"Hilo",
+        "subtotal": 0,
+        "precio": 350
+    },
+    {
+        "nombre": "Medias",
+        "material":"Algodon",
+        "subtotal": 0,
+        "precio": 625
+    }
+]
