@@ -1,24 +1,23 @@
-/* Estilo para el título */
+
 .title {
     font-size: 24px;
     font-weight: bold;
     margin: 10px 0;
   }
   
-  /* Estilo para el formulario */
+ 
   #agregar {
     background-color: #f8f9fa;
-    padding: 15px;
+    padding: 15px; 
     border: 1px solid #ced4da;
     border-radius: 5px;
   }
-  
-  /* Estilo para los botones */
+
   .btn {
     margin: 5px;
   }
   
-  /* Estilo para la tabla */
+ 
   .mi-tabla {
     width: 100%;
     border-collapse: collapse;
