@@ -52,9 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     obtenerProductos();
     dibujarTabla();
 
-
-
-
     btnAgregar.addEventListener('submit', (e) => {
         e.preventDefault();
 
