@@ -23,7 +23,7 @@ obtenerProductos = async () =>{
 }
 
 rellenarDropdown = () => {
-    productos.forEach(({nombre, material,precio }, index) => {
+    productos.forEach(({nombre,material,precio }, index) => {
         const option = document.createElement('option')
         option.textContent = `${nombre} - ${material} - $${precio}`;
         option.value = index;
@@ -75,7 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (indiceDelProducto !== -1) {
             carrito[indiceDelProducto].cantidad++
+            carrito[indiceDelProducto].producto.subtotal+=carrito[indiceDelProducto].producto.precio
         } else{
+
             const item = new ItemCompra(productoSeleccionado,1);
             carrito.push(item);
         }
@@ -116,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     btnFiltrar.addEventListener('click', () => {
-        carrito.sort((a, b) => a.producto.precio - b.producto.precio);
+        carrito.sort((a, b) => a.producto.subtotal - b.producto.subtotal);
         dibujarTabla();
     });
 
